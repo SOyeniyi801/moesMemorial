@@ -1,64 +1,23 @@
-/* body{
-  margin: 0;
-} */
 
-img{
-    max-height: 500px;
-    max-width: 100%;
-  }
-  
-  
-  
-  /* bio */
-  
   .bioBox{
     width:100%;
     background-color: aliceblue;
     border-radius: 5%;
   }
-  
-  /* cover page */
-    .bg {
-      /* The image used */
-      background-image: url("cloudbg.jpeg");
-    
-      /* Full height */
-      height: 100%; 
-    
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .whitebg{
-      background-color: antiquewhite;
-      text-align: center;
-      opacity: 0.85;
-      height: 15%;
-      border-radius: 5%;
-    }
-  
-    .coverpic{
-      height: 202px;
-      position: absolute;
-      top: 76px;
-      width: 188px;
+  .coverImage{
+    height: 300px;
+    border-radius: 20%;
   }
-  
-    
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-  
-    /* video page */
-    video {
-      max-width: 100%;
-    }
-    .card{
-      width: 18rem;
-    }
+
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: .80;
+    margin-top: 15%;
+  }
+
+  .body{
+    background-image: url("photos_moe/background.jpeg");
+  }
